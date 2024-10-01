@@ -2,17 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-color:rgb(233, 176, 70);
-}
 .Main{
-background-color: rgb(155, 238, 210);
+background-color: rgb(118, 114, 118);
 padding-left: 20px;
-margin-right: 50px;
-border: 10px solid black;
-border-radius: 20px;
+margin-top: -1px;
+margin-left: -1px;
 height: 400px;
 }
 .sub-section{
   margin-top: 40px;
+}
+.header{
+  display: flex;
+  background-color: rgb(237, 223, 29);
+  color: rgb(8, 8, 8);
+  
+}
+
+.header-buttons{
+  font-size: 20px;
+ 
+  font-weight: 600;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 90px;
+ margin-left: 600px;
+ 
+}
+.img{
+  margin-left: 70px;
+}
+.prof{
+  margin-left: 100px;
+}
+
+
+.head{
+  height: 400px;
+  font-size: 30px;
+  font-weight: 800;
+ 
+  
+}
+.text-head{
+  display: flex;
+  justify-content: center;
+}
+.contact{
+  background-color:  rgb(118, 114, 118);
+}
+.end{
+display: flex;
+justify-content: center;
+font-size: 30px;
+gap: 15px;
+margin-top: 10px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 23px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.para{
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.Foot{
+  background-color: rgb(237, 223, 29);
+  margin-top: -10px;
+
 }

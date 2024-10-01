@@ -1,5 +1,6 @@
 import Image from "next/image";
 import developer from "@/public/images/developer.jpeg";
+
 export default function Profile() {
   return (
     <div className="Main flex mt-20 ml-8">
@@ -18,7 +19,7 @@ export default function Profile() {
       </div>
       
       {/* Add Image here */}
-        <Image
+        <Image className="prof"
           src={developer} 
           alt="Full stack developer"
           width={400}
